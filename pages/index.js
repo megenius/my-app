@@ -23,6 +23,7 @@ export default function IndexPage({ postList }) {
       </Head>
 
       <h1>List of posts</h1>
+      <h1>Hello World</h1>
 
       <section>
         {postList.map((post) => (
@@ -30,5 +31,5 @@ export default function IndexPage({ postList }) {
         ))}
       </section>
     </main>
-  )
+  );
 }
